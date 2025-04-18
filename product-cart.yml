@@ -1,0 +1,27 @@
+#database specific configuration
+spring:
+  datasource:
+    url: jdbc:mysql://sqlcontainer:3306/microdb
+    username: root	
+    password: root
+
+#jpa specific configuration
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
